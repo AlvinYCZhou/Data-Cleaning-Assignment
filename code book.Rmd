@@ -1,0 +1,615 @@
+---
+title: "Code Book"
+author: "Alvin"
+date: "4/13/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Data dictionary for mean&std data table
+
+## subjects
+
+* *Factor:30*
+* *labels of 30 subjects*
+* 1 Subject 1
+* 2 Subject 2
+* 3 Subject 3
+* 4 Subject 4
+* 5 Subject 5
+* 6 Subject 6
+* 7 Subject 7
+* 8 Subject 8
+* 9 Subject 9
+* 10 Subject 10
+* 11 Subject 11
+* 12 Subject 12
+* 13 Subject 13
+* 14 Subject 14
+* 15 Subject 15
+* 16 Subject 16
+* 17 Subject 17
+* 18 Subject 18
+* 19 Subject 19
+* 20 Subject 20
+* 21 Subject 21
+* 22 Subject 22
+* 23 Subject 23
+* 24 Subject 24
+* 25 Subject 25
+* 26 Subject 26
+* 27 Subject 27
+* 28 Subject 28
+* 29 Subject 29
+* 30 Subject 30
+
+## activities
+
+* *Factor:6*
+* *labels of 6 activities**
+* 1 WALKING
+* 2 WALKING_UPSTAIRS
+* 3 WALKING_DOWNSTAIRS
+* 4 SITTING
+* 5 STANDING
+* 6 LAYING
+
+## train/test
+
+* *Factor: 2*
+* tagging the data set of test or train 
+* test - data from test set
+* train - data from train set
+
+## tBodyAcc-mean()-X 
+
+- *Double:(-1,1)*
+- Body Accelaration 
+- time domain signal
+- statistics: mean
+- dimention: X
+
+## tBodyAcc-mean()-Y 
+
+- *Double:(-1,1)*
+- Body Accelaration 
+- time domain signal
+- statistics: mean
+- dimention: Y
+
+## tBodyAcc-mean()-Z 
+
+- *Double:(-1,1)*
+- Body Accelaration 
+- time domain signal
+- statistics: mean
+- dimention: Z
+
+## tGravityAcc-mean()-X 
+
+- *Double:(-1,1)*
+- Gravity Accelaration 
+- time domain signal
+- statistics: mean
+- dimention: X
+
+## tGravityAcc-mean()-Y 
+
+- *Double:(-1,1)*
+- Gravity Accelaration 
+- time domain signal
+- statistics: mean
+- dimention: Y
+
+## tGravityAcc-mean()-Z 
+
+- *Double:(-1,1)*
+- Gravity Accelaration 
+- time domain signal
+- statistics: mean
+- dimention: Z
+
+## tBodyAccJerk-mean()-X 
+
+- *Double:(-1,1)*
+- Body Accelaration Jerk
+- time domain signal
+- statistics: mean
+- dimention: X
+
+## tBodyAccJerk-mean()-Y 
+
+- *Double:(-1,1)*
+- Body Accelaration Jerk
+- time domain signal
+- statistics: mean
+- dimention: Y
+
+## tBodyAccJerk-mean()-Z 
+
+- *Double:(-1,1)*
+- Body Accelaration Jerk
+- time domain signal
+- statistics: mean
+- dimention: Z
+
+## tBodyGyro-mean()-X 
+
+- *Double:(-1,1)*
+- Body Gyroscope 
+- time domain signal
+- statistics: mean
+- dimention: X
+
+## tBodyGyro-mean()-Y 
+
+- *Double:(-1,1)*
+- Body Gyroscope 
+- time domain signal
+- statistics: mean
+- dimention: Y
+
+## tBodyGyro-mean()-Z 
+
+- *Double:(-1,1)*
+- Body Gyroscope 
+- time domain signal
+- statistics: mean
+- dimention: Z
+
+## tBodyGyroJerk-mean()-X 
+
+- *Double:(-1,1)*
+- Body Gyroscope Jerk
+- time domain signal
+- statistics: mean
+- dimention: X
+
+## tBodyGyroJerk-mean()-Y 
+
+- *Double:(-1,1)*
+- Body Gyroscope Jerk
+- time domain signal
+- statistics: mean
+- dimention: Y
+
+## tBodyGyroJerk-mean()-Z 
+
+- *Double:(-1,1)*
+- Body Gyroscope Jerk
+- time domain signal
+- statistics: mean
+- dimention: Z
+
+## tBodyAccMag-mean() 
+
+- *Double:(-1,1)*
+- Body Accelaration  Magnitude
+- time domain signal
+- statistics: mean
+
+
+## tGravityAccMag-mean() 
+
+- *Double:(-1,1)*
+- Gravity Accelaration  Magnitude
+- time domain signal
+- statistics: mean
+
+
+## tBodyAccJerkMag-mean() 
+
+- *Double:(-1,1)*
+- Body Accelaration Jerk Magnitude
+- time domain signal
+- statistics: mean
+
+
+## tBodyGyroMag-mean() 
+
+- *Double:(-1,1)*
+- Body Gyroscope  Magnitude
+- time domain signal
+- statistics: mean
+
+
+## tBodyGyroJerkMag-mean() 
+
+- *Double:(-1,1)*
+- Body Gyroscope Jerk Magnitude
+- time domain signal
+- statistics: mean
+
+
+## fBodyAcc-mean()-X 
+
+- *Double:(-1,1)*
+-  Body Accelaration 
+- frequency domain signal
+- statistics: mean
+- dimention: X
+
+## fBodyAcc-mean()-Y 
+
+- *Double:(-1,1)*
+-  Body Accelaration 
+- frequency domain signal
+- statistics: mean
+- dimention: Y
+
+## fBodyAcc-mean()-Z 
+
+- *Double:(-1,1)*
+-  Body Accelaration 
+- frequency domain signal
+- statistics: mean
+- dimention: Z
+
+## fBodyAccJerk-mean()-X 
+
+- *Double:(-1,1)*
+-  Body Accelaration Jerk
+- frequency domain signal
+- statistics: mean
+- dimention: X
+
+## fBodyAccJerk-mean()-Y 
+
+- *Double:(-1,1)*
+-  Body Accelaration Jerk
+- frequency domain signal
+- statistics: mean
+- dimention: Y
+
+## fBodyAccJerk-mean()-Z 
+
+- *Double:(-1,1)*
+-  Body Accelaration Jerk
+- frequency domain signal
+- statistics: mean
+- dimention: Z
+
+## fBodyGyro-mean()-X 
+
+- *Double:(-1,1)*
+-  Body Gyroscope 
+- frequency domain signal
+- statistics: mean
+- dimention: X
+
+## fBodyGyro-mean()-Y 
+
+- *Double:(-1,1)*
+-  Body Gyroscope 
+- frequency domain signal
+- statistics: mean
+- dimention: Y
+
+## fBodyGyro-mean()-Z 
+
+- *Double:(-1,1)*
+-  Body Gyroscope 
+- frequency domain signal
+- statistics: mean
+- dimention: Z
+
+## fBodyAccMag-mean() 
+
+- *Double:(-1,1)*
+-  Body Accelaration  Magnitude
+- frequency domain signal
+- statistics: mean
+
+
+## fBodyBodyAccJerkMag-mean() 
+
+- *Double:(-1,1)*
+-  BodyBody Accelaration Jerk Magnitude
+- frequency domain signal
+- statistics: mean
+
+
+## fBodyBodyGyroMag-mean() 
+
+- *Double:(-1,1)*
+-  BodyBody Gyroscope  Magnitude
+- frequency domain signal
+- statistics: mean
+
+
+## fBodyBodyGyroJerkMag-mean() 
+
+- *Double:(-1,1)*
+-  BodyBody Gyroscope Jerk Magnitude
+- frequency domain signal
+- statistics: mean
+
+
+## tBodyAcc-std()-X 
+
+- *Double:(-1,1)*
+- Body Accelaration 
+- time domain signal
+- statistics: standard deviation
+- dimention: X
+
+## tBodyAcc-std()-Y 
+
+- *Double:(-1,1)*
+- Body Accelaration 
+- time domain signal
+- statistics: standard deviation
+- dimention: Y
+
+## tBodyAcc-std()-Z 
+
+- *Double:(-1,1)*
+- Body Accelaration 
+- time domain signal
+- statistics: standard deviation
+- dimention: Z
+
+## tGravityAcc-std()-X 
+
+- *Double:(-1,1)*
+- Gravity Accelaration 
+- time domain signal
+- statistics: standard deviation
+- dimention: X
+
+## tGravityAcc-std()-Y 
+
+- *Double:(-1,1)*
+- Gravity Accelaration 
+- time domain signal
+- statistics: standard deviation
+- dimention: Y
+
+## tGravityAcc-std()-Z 
+
+- *Double:(-1,1)*
+- Gravity Accelaration 
+- time domain signal
+- statistics: standard deviation
+- dimention: Z
+
+## tBodyAccJerk-std()-X 
+
+- *Double:(-1,1)*
+- Body Accelaration Jerk
+- time domain signal
+- statistics: standard deviation
+- dimention: X
+
+## tBodyAccJerk-std()-Y 
+
+- *Double:(-1,1)*
+- Body Accelaration Jerk
+- time domain signal
+- statistics: standard deviation
+- dimention: Y
+
+## tBodyAccJerk-std()-Z 
+
+- *Double:(-1,1)*
+- Body Accelaration Jerk
+- time domain signal
+- statistics: standard deviation
+- dimention: Z
+
+## tBodyGyro-std()-X 
+
+- *Double:(-1,1)*
+- Body Gyroscope 
+- time domain signal
+- statistics: standard deviation
+- dimention: X
+
+## tBodyGyro-std()-Y 
+
+- *Double:(-1,1)*
+- Body Gyroscope 
+- time domain signal
+- statistics: standard deviation
+- dimention: Y
+
+## tBodyGyro-std()-Z 
+
+- *Double:(-1,1)*
+- Body Gyroscope 
+- time domain signal
+- statistics: standard deviation
+- dimention: Z
+
+## tBodyGyroJerk-std()-X 
+
+- *Double:(-1,1)*
+- Body Gyroscope Jerk
+- time domain signal
+- statistics: standard deviation
+- dimention: X
+
+## tBodyGyroJerk-std()-Y 
+
+- *Double:(-1,1)*
+- Body Gyroscope Jerk
+- time domain signal
+- statistics: standard deviation
+- dimention: Y
+
+## tBodyGyroJerk-std()-Z 
+
+- *Double:(-1,1)*
+- Body Gyroscope Jerk
+- time domain signal
+- statistics: standard deviation
+- dimention: Z
+
+## tBodyAccMag-std() 
+
+- *Double:(-1,1)*
+- Body Accelaration  Magnitude
+- time domain signal
+- statistics: standard deviation
+
+
+## tGravityAccMag-std() 
+
+- *Double:(-1,1)*
+- Gravity Accelaration  Magnitude
+- time domain signal
+- statistics: standard deviation
+
+
+## tBodyAccJerkMag-std() 
+
+- *Double:(-1,1)*
+- Body Accelaration Jerk Magnitude
+- time domain signal
+- statistics: standard deviation
+
+
+## tBodyGyroMag-std() 
+
+- *Double:(-1,1)*
+- Body Gyroscope  Magnitude
+- time domain signal
+- statistics: standard deviation
+
+
+## tBodyGyroJerkMag-std() 
+
+- *Double:(-1,1)*
+- Body Gyroscope Jerk Magnitude
+- time domain signal
+- statistics: standard deviation
+
+
+## fBodyAcc-std()-X 
+
+- *Double:(-1,1)*
+-  Body Accelaration 
+- frequency domain signal
+- statistics: standard deviation
+- dimention: X
+
+## fBodyAcc-std()-Y 
+
+- *Double:(-1,1)*
+-  Body Accelaration 
+- frequency domain signal
+- statistics: standard deviation
+- dimention: Y
+
+## fBodyAcc-std()-Z 
+
+- *Double:(-1,1)*
+-  Body Accelaration 
+- frequency domain signal
+- statistics: standard deviation
+- dimention: Z
+
+## fBodyAccJerk-std()-X 
+
+- *Double:(-1,1)*
+-  Body Accelaration Jerk
+- frequency domain signal
+- statistics: standard deviation
+- dimention: X
+
+## fBodyAccJerk-std()-Y 
+
+- *Double:(-1,1)*
+-  Body Accelaration Jerk
+
+
+
+<div STYLE="page-break-after: always;"></div>
+
+
+
+# Data dictionary for tidy data table
+
+## subjects
+
+* *Factor:30*
+* *labels of 30 subjects*
+* 1 Subject 1
+* 2 Subject 2
+* 3 Subject 3
+* 4 Subject 4
+* 5 Subject 5
+* 6 Subject 6
+* 7 Subject 7
+* 8 Subject 8
+* 9 Subject 9
+* 10 Subject 10
+* 11 Subject 11
+* 12 Subject 12
+* 13 Subject 13
+* 14 Subject 14
+* 15 Subject 15
+* 16 Subject 16
+* 17 Subject 17
+* 18 Subject 18
+* 19 Subject 19
+* 20 Subject 20
+* 21 Subject 21
+* 22 Subject 22
+* 23 Subject 23
+* 24 Subject 24
+* 25 Subject 25
+* 26 Subject 26
+* 27 Subject 27
+* 28 Subject 28
+* 29 Subject 29
+* 30 Subject 30
+
+## activities
+
+* *Factor:6*
+* *labels of 6 activities*
+* 1 WALKING
+* 2 WALKING_UPSTAIRS
+* 3 WALKING_DOWNSTAIRS
+* 4 SITTING
+* 5 STANDING
+* 6 LAYING
+
+## observation
+
+* *Factor: 13*
+* *labels of 13 observations*
+* BodyAcc
+* BodyAccJerk
+* BodyAccJerkMag
+* BodyAccMag 
+* BodyBodyAccJerkMag
+* BodyBodyGyroJerkMag
+* BodyBodyGyroMag
+* BodyGyro
+* BodyGyroJerk
+* BodyGyroJerkMag
+* BodyGyroMag
+* GravityAcc
+* GravityAccMag
+
+## domain
+
+* *Factor: 2*
+* *time domain signals or frequency domain signals*
+* time domain
+* frequency domain
+
+## measurement
+
+* *Factor: 2*
+* *mean or standard deviation
+* mean
+* standard deviation
+
+## Value
+* *Double: (-1,1)*
+* *mean of all observations in such category
